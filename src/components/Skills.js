@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import SkillIcon from "./SkillIcon";
 
 class Skills extends Component {
   render() {
@@ -9,14 +10,15 @@ class Skills extends Component {
           <li className="list-inline-item mx-3" key={i}>
             <span>
               <div className="text-center skills-tile">
-                <i className={skills.class} style={{ fontSize: "220%" }}>
-                  <p
+                {skills.class ?
+                  <i className={skills.class} style={{ fontSize: "220%" }} > <p
                     className="text-center"
                     style={{ fontSize: "30%", marginTop: "4px" }}
                   >
                     {skills.name}
-                  </p>
-                </i>
+                  </p> </i>
+                  : <SkillIcon src={skills.iconPath} alt={skills.name} name={skills.name} />
+                }
               </div>
             </span>
           </li>

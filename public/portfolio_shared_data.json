@@ -1,78 +1,83 @@
 {
-    "basic_info": {
-      "name": "Ammara Khalid",
-      "titles": [ "Reporting Analyst", "Data Analyst" ],
-      "social": [
-        {
-          "name": "github",
-          "url": "https://github.com",
-          "class": "fab fa-github"
-        },
-        {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
-        }
-      ],
-      "image": "myProfile.jpg"
-    },
-    "skills": {
-      "icons": [
-        {
-          "name": "Oracle PL/SQL",
-          "class": "devicon-oracle-original",
-          "level": "95"
-        },
-        {
-          "name": "SAP (Netweaver)",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "Tableau",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "Power BI",
-          "class": "test-class",
-          "level": "70"
-        },
-        {
-          "name": "Manhattan (OneWMS)",
-          "class": "devicon-javascript-plain",
-          "level": "70"
-        },
-        {
-          "name": "DAX",
-          "class": "devicon-sass-original",
-          "level": "75"
-        },
-        {
-          "name": "Power Query",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
-        },
-        {
-          "name": "SAP GUI Scripting",
-          "class": "devicon-csharp-plain",
-          "level": "65"
-        },
-        {
-          "name": "VBA",
-          "class": "devicon-mysql-plain",
-          "level": "60"
-        },
-        {
-          "name": "Python",
-          "class": "devicon-python-plain",
-          "level": "60"
-        },
-        {
-          "name": "Anaconda",
-          "class": "devicon-anaconda-original",
-          "level": "60"
-        }
-      ]
-    }
+  "basic_info": {
+    "name": "Ammara Khalid",
+    "titles": [
+      "Reporting Analyst",
+      "Data Analyst"
+    ],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com",
+        "class": "fab fa-instagram"
+      }
+    ],
+    "image": "myProfile.jpg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "Oracle PL/SQL",
+        "class": "devicon-oracle-original",
+        "level": "95"
+      },
+      {
+        "name": "SAP (Netweaver)",
+        "class": "devicon-css3-plain",
+        "level": "95"
+      },
+      {
+        "name": "Tableau",
+        "class": "devicon-angularjs-plain",
+        "level": "80"
+      },
+      {
+        "name": "Power BI",
+        "class": "",
+        "iconPath": "/images/icons/icons8-power-bi.svg",
+        "level": "70"
+      },
+      {
+        "name": "Manhattan (OneWMS)",
+        "class": "devicon-javascript-plain",
+        "level": "70"
+      },
+      {
+        "name": "DAX",
+        "class": "devicon-sass-original",
+        "level": "75"
+      },
+      {
+        "name": "Power Query",
+        "class": "",
+        "iconPath": "/images/icons/microsoft-power-bi.svg",
+        "level": "85"
+      },
+      {
+        "name": "SAP GUI Scripting",
+        "class": "devicon-csharp-plain",
+        "level": "65"
+      },
+      {
+        "name": "VBA",
+        "class": "devicon-mysql-plain",
+        "level": "60"
+      },
+      {
+        "name": "Python",
+        "class": "devicon-python-plain",
+        "level": "60"
+      },
+      {
+        "name": "Anaconda",
+        "class": "devicon-anaconda-original",
+        "level": "60"
+      }
+    ]
   }
+}
